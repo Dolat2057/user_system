@@ -1,0 +1,77 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.card {
+    background-color: #fffffff2 !important;
+}
+
+.main_body {
+    background: url("../images/1.jpg") no-repeat center center;
+    background-size: cover;
+}
+
+.flex {
+    display: flex;
+}
+
+.add_student {
+    text-align: right;
+}
+
+th {
+    text-align: center;
+}
+
+td {
+    text-align: center;
+}
+
+body {
+    background: #f7f7f7;
+}
+
+.main_heading {
+    font-family: poppins;
+}
+
+.form_container {
+    max-width: 800% !important;
+}
+
+
+/* success and error messages */
+
+#success-message {
+    background: #DEF1D8;
+    color: green;
+    padding: 10px;
+    margin: 10px;
+    display: none;
+    position: absolute;
+    right: 15px;
+    top: 35px;
+}
+
+#error-message {
+    background: #EFDCDD;
+    color: red;
+    padding: 10px;
+    margin: 10px;
+    display: none;
+    position: absolute;
+    right: 15px;
+    top: 35px;
+}
+
+p {
+    text-transform: capitalize;
+    color: black;
+    font-weight: bold;
+    text-align: center;
+}
+
+.modal-title {
+    text-transform: capitalize;
+}
