@@ -11,5 +11,5 @@ else{
 }
 
 
-define("URL","http://localhost/clavax/");
+define("URL","http://localhost/user_system/");
 ?>
